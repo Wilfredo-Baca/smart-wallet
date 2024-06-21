@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué es Smart Wallet?",
+    "respuesta": "Smart Wallet es una aplicación de gestión financiera personal que ayuda a los usuarios a controlar sus ingresos, gastos, cuentas bancarias, tarjetas de crédito, presupuestos y metas de ahorro.",
+    "imagen_ejemplo": "/questions/1.jpg"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué puedes hacer con Smart Wallet?",
+    "respuesta": "Con Smart Wallet, puedes añadir y gestionar cuentas financieras, registrar transacciones, crear y seguir presupuestos, establecer metas de ahorro, y obtener análisis y consejos financieros personalizados.",
+    "imagen_ejemplo": "/questions/2.jpg"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cómo se añaden cuentas financieras en Smart Wallet?",
+    "respuesta": "Puedes añadir cuentas financieras manualmente ingresando los detalles básicos, o sincronizarlas automáticamente utilizando la integración con tu banco.",
+    "imagen_ejemplo": "/questions/3.jpg"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué tipos de cuentas se pueden añadir?",
+    "respuesta": "Se pueden añadir cuentas bancarias: Cuentas de ahorro, Cuentas corriente, Cuentas para trabajadores (o nómina) Cuenta a plazo fijo. Y tarjetas de crédito.",
+    "imagen_ejemplo": "/questions/4.jpg"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cómo se registran transacciones en Smart Wallet?",
+    "respuesta": "Puedes registrar transacciones manualmente ingresando los detalles como monto, categoría, fecha y descripción, o permitir que la aplicación las sincronice automáticamente desde tus cuentas bancarias.",
+    "imagen_ejemplo": "/questions/5.jpg"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué son las categorías de gasto?",
+    "respuesta": "Las categorías de gasto son etiquetas que te ayudan a organizar y clasificar tus transacciones, como alimentación, transporte, entretenimiento, entre otras.",
+    "imagen_ejemplo": "/questions/6.jpg"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Puedo crear mis propias categorías?",
+    "respuesta": "Sí, puedes crear categorías personalizadas además de usar las predefinidas que ofrece la aplicación como ser: Alimentación, Transporte, Entretenimiento, Salud, Educación, etc.",
+    "imagen_ejemplo": "/questions/7.jpg"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cómo funcionan los presupuestos en Smart Wallet?",
+    "respuesta": "Puedes establecer presupuestos mensuales para diferentes categorías de gasto, y la aplicación te ayudará a seguir tu progreso y te alertará cuando te acerques o excedas tus límites presupuestarios.",
+    "imagen_ejemplo": "/questions/8.jpg"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué son las metas de ahorro?",
+    "respuesta": "Las metas de ahorro son objetivos financieros que estableces, como ahorrar para unas vacaciones o para un fondo de emergencia, y Smart Wallet te ayudará a hacer seguimiento de tu progreso hacia esos objetivos.",
+    "imagen_ejemplo": "/questions/9.jpg"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cómo se sincronizan las cuentas bancarias con Plaid?",
+    "respuesta": "Smart Wallet se conecta de forma segura a través de Plaid, una API que permite sincronizar automáticamente tus transacciones y saldos bancarios, manteniendo tus datos financieros siempre actualizados.",
+    "imagen_ejemplo": "/questions/10.jpg"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué es Plaid?",
+    "respuesta": "Es una API que permite a las aplicaciones conectarse de forma segura con las cuentas bancarias de los usuarios, proporcionando acceso a datos financieros como saldos y transacciones en tiempo real.",
+    "imagen_ejemplo": "/questions/11.jpg"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Es seguro utilizar Smart Wallet?",
+    "respuesta": "Sí, Smart Wallet utiliza protocolos de seguridad avanzados, incluyendo la seguridad de Plaid, para proteger tu información financiera y garantizar que tus datos estén seguros.",
+    "imagen_ejemplo": "/questions/12.jpg"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Puedo usar Smart Wallet sin conexión a internet?",
+    "respuesta": "No, necesitas estar conectado a internet para sincronizar datos y obtener actualizaciones en tiempo real.",
+    "imagen_ejemplo": "/questions/13.jpg"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué tipos de análisis financieros ofrece Smart Wallet?",
+    "respuesta": "Smart Wallet proporciona gráficos y reportes detallados sobre tus patrones de gasto y ahorro, así como consejos personalizados para mejorar tu salud financiera.",
+    "imagen_ejemplo": "/questions/14.jpg"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Smart Wallet tiene alguna versión de prueba o gratuita?",
+    "respuesta": "Sí, hay una versión gratuita de Smart Wallet que ofrece todas las funcionalidades básicas, y una versión premium con características adicionales y sin publicidad.",
+    "imagen_ejemplo": "/questions/15.jpg"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cómo puedo comenzar a usar Smart Wallet?",
+    "respuesta": "Estamos desarrollando la aplicación, pronto estará disponible para su uso.",
+    "imagen_ejemplo": "/questions/16.jpg"
+  }
+]

@@ -1,0 +1,15 @@
+---
+const { key, question, answer } = Astro.props;
+---
+
+<section class="flex flex-col w- h-auto bg-[#1F1D2B] rounded-xl">
+  <div class="flex flex-col p-4">
+    <h3 class="text-[#F8F8F2] text-lg font-bold">{ question }</h3>
+    <p class="text-[#F8F8F2] text-sm mt-2">{ answer }</p>
+  </div>
+  <div class="flex flex-row justify-between items-center p-4 bg-[#1A1928] rounded-b-xl">
+    <p class="text-[#F8F8F2] text-sm">{ key }</p>
+    <a href={`/question/${key}`}  class="text-[#F8F8F2] text-sm bg-[#EC7C69] py-2 px-5 rounded-lg">Ver</a>
+  </div>
+</section>
+

@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Base.astro';
+const { id } = Astro.params;
+import questions from '../../assets/questions.json';
+console.log(id);
+const idInt = parseInt(id, 10);
+const question = questions.find((q) => q.id === idInt);
+
+if (!question) {
+  return {
+    status: 404,
+    error: 'Not found',
+  };
+}
+
+export function getStaticPaths() {
+  let paths = [];
+  for (let i = 0; i < questions.length; i++) {
+    paths.push({ params: { id: i.toString() } });
+  }
+  return paths;
+};
+---
+
+<Layout title={question.pregunta} namePage={`Pregunta ${question.id}`}>
+  <section class="flex flex-col gap-4 mt-5 border p-2 rounded-xl">
+    <img
+      alt={question.pregunta}
+      src={`${question.imagen_ejemplo}`}
+      class="w-full h-auto object-cover sm:h-80 lg:h-96 rounded-xl"
+    />
+  
+    <h3 class="mt-4 text-lg font-bold text-gray-100 sm:text-xl">{question.pregunta}</h3>
+  
+    <p class="mt-2 max-w-sm text-gray-300">
+      {question.respuesta}
+    </p>
+    <a href="/home" class=" text-center text-black font-bold bg-[#EC7C69] mt-2 py-2 rounded-lg">Volver al inicio</a>
+  </section>
+</Layout>

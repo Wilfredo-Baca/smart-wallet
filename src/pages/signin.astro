@@ -1,0 +1,105 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+<Layout title="Smart Wallet - Ingresar">
+<div class="mx-auto px-4 py-16">
+  <div class="mx-auto max-w-lg">
+    <div class="text-center text-4xl font-bold text-[#EC7C69]">
+      <a href="/">Smart Wallet</a>
+    </div>
+
+    <p class="mx-auto mt-4 max-w-md text-center">
+      Inicia sesión con tu cuenta de Google o con tu correo electrónico.
+      <br>
+      Empieza a disfrutar de todas las funcionalidades de Smart Wallet.
+    </p>
+
+    <form action="#" class="flex flex-col gap-4 mb-0 mt-6 space-y-4 rounded-lg p-7 bg-[#1F1D2B] shadow-lg sm:p-6 lg:p-8">
+      <p class="text-center text-xl font-bold">Inicia Sesión con tu cuenta</p>
+
+        <button class="flex items-center justify-between px-5 w-full bg-white text-black py-2 rounded">
+          <span>
+            <svg  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 2a9.96 9.96 0 0 1 6.29 2.226a1 1 0 0 1 .04 1.52l-1.51 1.362a1 1 0 0 1 -1.265 .06a6 6 0 1 0 2.103 6.836l.001 -.004h-3.66a1 1 0 0 1 -.992 -.883l-.007 -.117v-2a1 1 0 0 1 1 -1h6.945a1 1 0 0 1 .994 .89c.04 .367 .061 .737 .061 1.11c0 5.523 -4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10z" /></svg>
+          </span>
+          <p class="w-full font-bold">Continuar con Google</p>
+        </button>
+
+      <div>
+        <label for="email" class="sr-only">Correo</label>
+
+        <div class="relative">
+          <input
+            type="email"
+            class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+            placeholder="Ingresa tu correo"
+          />
+
+          <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="size-4 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="password" class="sr-only">Password</label>
+
+        <div class="relative">
+          <input
+            type="password"
+            class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+            placeholder="Ingresa tu contraseña"
+          />
+
+          <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="size-4 text-gray-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <button
+        type="submit"
+        class="block w-full rounded-lg bg-[#EC7C69] px-5 py-3 text-sm font-medium text-white"
+      >
+        Ingresar
+      </button>
+
+      <p class="text-center text-sm text-sky-600">
+        No tienes cuenta?
+        <a class="underline" href="/signup">Crea una</a>
+      </p>
+    </form>
+  </div>
+</div>
+</Layout>
